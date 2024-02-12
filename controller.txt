@@ -1,0 +1,11 @@
+I0212 19:12:36.270660       1 log_file.go:93] Set log file max size to 104857600
+I0212 19:12:36.271074       1 controller.go:125] "Github ID: mohit-marathe" Pod Name="antrea-controller-5dd5c48988-4w4j4"
+I0212 19:12:36.271083       1 controller.go:126] Starting Antrea Controller (version v2.0.0-dev-84e23bc7.dirty)
+I0212 19:12:36.271095       1 client.go:89] No kubeconfig file was specified. Falling back to in-cluster config
+I0212 19:12:36.277496       1 selfsignedcert_provider.go:273] "Didn't find the Secret for TLS certificate and key" secret="antrea-controller-tls"
+I0212 19:12:36.277511       1 selfsignedcert_provider.go:235] "Generating self-signed cert"
+I0212 19:12:36.849999       1 selfsignedcert_provider.go:251] "Writing certificate and key to the cert directory"
+I0212 19:12:37.168224       1 prometheus.go:124] Initializing prometheus metrics
+I0212 19:12:37.168276       1 controller.go:166] Starting GroupEntityController
+I0212 19:12:37.168290       1 shared_informer.go:270] Waiting for caches to sync for GroupEntityController
+
